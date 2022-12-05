@@ -1,0 +1,49 @@
+$header-bg:#804141;
+$main-bg:#CCBDBD;
+$footer-bg:#041099;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+} 
+
+header{
+    background-color: $header-bg;
+}
+
+nav{
+     background-color: rgb(1, 2, 2);
+
+     ul{
+     
+        list-style-type: none;
+        display: flex;}
+
+        li{
+            padding: 20px;
+            
+          }
+
+          a{
+   
+            transition: .5s;
+         }
+         a:hover{
+            background-color: $footer-bg;
+        }
+        
+}
+
+ 
+ 
+main{
+    background-color: $main-bg;
+}
+
+footer{
+    background-color: $footer-bg;
+}

@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #804141;
+}
+
+nav {
+  background-color: #010202;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+nav li {
+  padding: 20px;
+}
+nav a {
+  transition: 0.5s;
+}
+nav a:hover {
+  background-color: #041099;
+}
+
+main {
+  background-color: #CCBDBD;
+}
+
+footer {
+  background-color: #041099;
+}
