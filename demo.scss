@@ -16,30 +16,27 @@ header{
 }
 
 nav{
-     background-color: rgb(1, 2, 2);
+    background-color: rgb(1, 2, 2);
 
-     ul{
-     
-        list-style-type: none;
-        display: flex;}
+    ul{
+    
+       list-style-type: none;
+       display: flex;}
 
-        li{
-            padding: 20px;
-            
-          }
-
-          a{
-   
-            transition: .5s;
+       li{
+           padding: 20px;
+           
          }
-         a:hover{
-            background-color: $footer-bg;
-        }
-        
-}
 
- 
- 
+         a{
+  
+           transition: .5s;
+        }
+        a:hover{
+           background-color: $footer-bg;
+       }
+       
+}
 main{
     background-color: $main-bg;
 }
