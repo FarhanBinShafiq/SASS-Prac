@@ -16,7 +16,7 @@ nav ul {
   display: flex;
 }
 nav li {
-  padding: 20px;
+  padding: 1000px;
 }
 nav a {
   transition: 0.5s;
