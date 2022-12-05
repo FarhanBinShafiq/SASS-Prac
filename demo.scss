@@ -23,7 +23,7 @@ nav{
        list-style-type: none;
        display: flex;}
 
-<<<<<<< HEAD
+ 
         li{
             padding: 1000px;
             
@@ -31,18 +31,7 @@ nav{
 
           a{
    
-            transition: .5s;
-=======
-       li{
-           padding: 20px;
-           
->>>>>>> header
-         }
-
-         a{
-  
-           transition: .5s;
-        }
+            transition: .5s;}
         a:hover{
            background-color: $footer-bg;
        }
