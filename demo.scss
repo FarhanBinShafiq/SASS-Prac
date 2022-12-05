@@ -11,18 +11,19 @@ $footer-bg:#041099;
     
 } 
 
-header{
+.header{
     background-color: $header-bg;
 }
 
 nav{
-     background-color: rgb(1, 2, 2);
+    background-color: rgb(1, 2, 2);
 
-     ul{
-     
-        list-style-type: none;
-        display: flex;}
+    ul{
+    
+       list-style-type: none;
+       display: flex;}
 
+<<<<<<< HEAD
         li{
             padding: 1000px;
             
@@ -31,15 +32,22 @@ nav{
           a{
    
             transition: .5s;
+=======
+       li{
+           padding: 20px;
+           
+>>>>>>> header
          }
-         a:hover{
-            background-color: $footer-bg;
-        }
-        
-}
 
- 
- 
+         a{
+  
+           transition: .5s;
+        }
+        a:hover{
+           background-color: $footer-bg;
+       }
+       
+}
 main{
     background-color: $main-bg;
 }
